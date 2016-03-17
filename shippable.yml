@@ -14,8 +14,8 @@ env:
   global:
     - APP_NAME=shiphit2
 
-on_success :
-  - git push -f git@heroku.com:$APP_NAME.git master
+#on_success :
+ # - git push -f git@heroku.com:$APP_NAME.git master
   
 #before_install:
  # - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
