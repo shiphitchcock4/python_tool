@@ -12,7 +12,7 @@ services:
    # - MONGOLAB_URI=mongodb://localhost/test
 env:
   global:
-    - APP_NAME=shiphit
+    - APP_NAME=shiphit2
 
 on_success :
   - git push -f git@heroku.com:$APP_NAME.git master
